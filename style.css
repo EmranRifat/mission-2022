@@ -44,14 +44,49 @@ h1{
 }
 
 .section-one{
+    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
    
 }
+
+
 #small{
     padding-top: 20px;
 }
 body{
-    margin: 0;
+    margin: ;
 }
     
+.name2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.all-card{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: ;
+    text-align: center;
+    margin-left: 180px;
+    
+    
+}
+
+.card1{
+        text-align: center;
+        width: 20%;
+        border:1px solid gray;
+        box-shadow: 10px 10px 30px gray;
+        border-radius: 15px;
+        background-color:rgba(116, 180, 209, 0.438);
+        margin-left: 5%;
+         padding: 10px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 11px;
+
+    }
+    
+    .card1 img{
+        width: 100px;
+    }
+   
